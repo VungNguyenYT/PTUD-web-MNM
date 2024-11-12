@@ -5,7 +5,7 @@ include("header.php");
 <?php
 include("ketnoi.php");
 $sql = "select* from sach";
-$kq = mysqli_query($sfcn,$sql);
+$kq = mysqli_query($fcn,$sql);
 echo("<table border='0' width='100%'>");
 while($row=mysqli_fetch_array($kq)){
     echo("<tr>");
