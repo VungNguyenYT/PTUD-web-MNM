@@ -6,7 +6,7 @@ include("header.php");
 include("ketnoi.php");
 $sql = "select* from sach";
 $kq = mysqli_query($fcn,$sql);
-echo("<table border='0' width='100%'>");
+echo("<table border='0' width='100%'>"); $i=0
 while($row=mysqli_fetch_array($kq)){
     echo("<tr>");
     echo("<td><img src='".$row["hinhsach"]."' width='90' height='90'> </td>");
