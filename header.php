@@ -15,8 +15,9 @@
     <tr  bgcolor="#92D84E">
     	<td colspan="3">
         	<table border="0" width="100%" cellpadding="0" cellspacing="0">
-            	<tr>
+            	<tr style="display = block;">
                 	<td width="80"><a id="thuong" href="./">Trang chủ</a></td>
+                    <td width="80"><a id="thuong" href="login.html">Tài khoản</a></td>
                     <td><font color="#FF6600"><marquee>Cùng bạn đi tìm tri thức!</marquee></font></td>
              </tr>
             </table>
